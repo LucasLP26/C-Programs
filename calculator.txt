@@ -1,0 +1,67 @@
+
+#include <iostream>
+
+
+using namespace std;
+
+int main()
+{
+   //build a calculator
+   
+   int a, b;
+   
+   //suma numerelor
+   
+   cout<<"a= ";
+   cin>>a;
+   cout<<"b= ";
+   cin>>b;
+   
+   int suma;
+   
+   suma=a+b;
+   
+   
+   cout<<"suma= ";;
+   cout<<suma;
+   
+   cout<<endl;
+   
+   //diferenta numerelor
+   
+   cout<<"a= ";
+   cin>>a;
+   cout<<"b= ";
+   cin>>b;
+   
+   cout<<"diferenta= ";
+   cout<<a-b;
+   
+   cout<<endl;
+   
+   //produsul numerelor
+   
+   cout<<"a= ";
+   cin>>a;
+   cout<<"b= ";
+   cin>>b;
+   
+   cout<<"produsul= ";
+   cout<<a*b;
+   
+   cout<<endl;
+   
+   //catul numerelor(impartirea)
+   
+   cout<<"a= ";
+   cin>>a;
+   cout<<"b= ";
+   cin>>b;
+   
+   cout<<"impartirea= ";
+   cout<<a/b;
+    
+   
+   return 0;
+    
+}

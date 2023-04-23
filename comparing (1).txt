@@ -1,0 +1,80 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   //comparatori - instructiunea if
+   
+   
+   
+  int a,b;
+  
+  cout<<"a= ";
+  cin>>a;
+  
+  cout<<"b= ";
+  cin>>b;
+  
+   // > (mai mare)
+  
+  cout<<"Este numarul a mai mare decat b?";
+  cout<<endl;
+  
+  if(a>b) cout<<"Da, este mai mare";
+    else cout<<"Nu, nu este mai mare";
+    
+  cout<<endl;
+    
+  // < (mai mic)
+ 
+  cout<<"a= ";
+  cin>>a;
+  
+  cout<<"b= ";
+  cin>>b;
+ 
+  cout<<"Este numarul a mai mic decat b?";
+  cout<<endl;
+   
+   
+  if(a<b) cout<<"Da, este mai mic";
+    else cout<<"Nu, nu este mai mic";
+    
+  cout<<endl;
+  
+  // == (egal)
+  
+  cout<<"a= ";
+  cin>>a;
+  
+  cout<<"b= ";
+  cin>>b;
+ 
+  cout<<"Sunt numerele a si b egale?";
+  cout<<endl;
+   
+   
+  if(a==b) cout<<"Da, sunt egale";
+    else cout<<"Nu, nu sunt egale";
+    
+    cout<<endl;
+    
+  // != (diferit)
+  
+  cout<<"a= ";
+  cin>>a;
+  
+  cout<<"b= ";
+  cin>>b;
+ 
+  cout<<"Sunt numerele a si b diferite?";
+  cout<<endl;
+   
+   
+  if(a!=b) cout<<"Da, sunt diferite";
+    else cout<<"Nu, nu sunt diferite"; 
+  
+  
+  return 0;
+}
